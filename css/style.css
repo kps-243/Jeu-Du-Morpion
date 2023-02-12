@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    background-color: rgb(42, 31, 31);
+}
+
+.title {
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    font-size: 30px;
+    color: white;
+    padding: 50px;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding: 25px;
+}
+
+.container {
+    margin-top: -170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.case {
+
+    height: 100px;
+    width: 100px;
+    border: 1px solid white;
+}
+
+.o,
+.x {
+    font-size: 36px;
+    font-family: Arial, sans-serif;
+    animation: zoomIn 0.5s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+.o {
+    color: green;
+}
+
+.x {
+    color: red;
+}
