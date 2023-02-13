@@ -60,3 +60,13 @@ cases.forEach(element => {
       }
   });
 });
+
+// Connexion au serveur local pour jouer à 2.
+
+const socket = io("http://localhost:3000");
+
+socket.on("play", data => {
+  console.log("Reçu : " + data);
+});
+
+socket.emit("play", "Coup joué");

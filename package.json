@@ -1,0 +1,26 @@
+{
+  "name": "morpion",
+  "version": "1.0.0",
+  "description": "Jeu du Morpion en ligne",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kps-243/Jeu-Du-Morpion.git"
+  },
+  "keywords": [
+    "Morpion",
+    "Jeu"
+  ],
+  "author": "Morgan KPASSI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kps-243/Jeu-Du-Morpion/issues"
+  },
+  "homepage": "https://github.com/kps-243/Jeu-Du-Morpion#readme",
+  "dependencies": {
+    "socket.io": "^4.6.0"
+  }
+}
